@@ -31,3 +31,14 @@
 exec sp_SelectCategory
 
 exec sp_SelectCategoryById 5
+
+--Assignment :
+--	Create table with name Employee Data
+--		Column name :
+--			Employee id -> PK and identity
+--			Employee Name
+--			Employee Age
+--			Employee Role
+--			Employee Mobile no
+
+--	Create SP for employee data that select data based on employee na

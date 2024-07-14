@@ -55,6 +55,11 @@
 			Right join tbl_SubcategoryMaster SCM
 				on CM.Category_Id = SCM.Category_ID
 
+	-- Self Join :
+			select emp.Employee_Id,emp.Employee_Name,manager.Employee_name as Manager_Name,manager.Employee_Age
+			from tbl_Employee emp, tbl_Employee manager
+			where manager.Employee_Id = emp.Manager_Id
+
 
 	select * from tbl_categoryMaster
 	select * from tbl_subcategoryMaster
